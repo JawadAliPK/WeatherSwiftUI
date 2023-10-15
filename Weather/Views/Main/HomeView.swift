@@ -9,34 +9,39 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        ZStack {
-            // MARK: Background Color
-            Color.background
-                .ignoresSafeArea()
-            
-            // MARK: Background Image
-            Image("Background")
-                .resizable()
-                .ignoresSafeArea()
-            
-            // MARK: House Image
-            Image("House")
-                .frame(height: .infinity, alignment: .top)
-                .padding(.top, 257)
-
-            // MARK: Current Weather
-            VStack(spacing: -10) {
-                Text("Montreal")
-                    .font(.largeTitle)
-                VStack {
-                    Text(attributedString)
-                    Text("H:24° L:18°")
-                        .font(.title3.weight(.semibold))
-                }
-                Spacer()
+        NavigationStack {
+            ZStack {
+                // MARK: Background Color
+                Color.background
+                    .ignoresSafeArea()
                 
+                // MARK: Background Image
+                Image("Background")
+                    .resizable()
+                    .ignoresSafeArea()
+                
+                // MARK: House Image
+                Image("House")
+                    .frame(height: .infinity, alignment: .top)
+                    .padding(.top, 257)
+
+                // MARK: Current Weather
+                VStack(spacing: -10) {
+                    Text("Montreal")
+                        .font(.largeTitle)
+                    VStack {
+                        Text(attributedString)
+                        Text("H:24° L:18°")
+                            .font(.title3.weight(.semibold))
+                    }
+                    Spacer()
+                    
+                }
+                .padding(.top, 51)
+                
+                //MARK: Tabbar
+                Tabbar(action: {})
             }
-            .padding(.top, 51)
         }
     }
     
