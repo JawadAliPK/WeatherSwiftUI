@@ -14,6 +14,7 @@
 		618D78182ADB5CB5005FCF81 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618D78172ADB5CB5005FCF81 /* Extensions.swift */; };
 		618D781A2ADB5E12005FCF81 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618D78192ADB5E12005FCF81 /* HomeView.swift */; };
 		618D781C2ADC2D42005FCF81 /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618D781B2ADC2D42005FCF81 /* Tabbar.swift */; };
+		618D781E2ADC5FA6005FCF81 /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618D781D2ADC5FA6005FCF81 /* Shapes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		618D78172ADB5CB5005FCF81 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		618D78192ADB5E12005FCF81 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		618D781B2ADC2D42005FCF81 /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
+		618D781D2ADC5FA6005FCF81 /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				618D78172ADB5CB5005FCF81 /* Extensions.swift */,
+				618D781D2ADC5FA6005FCF81 /* Shapes.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				618D781A2ADB5E12005FCF81 /* HomeView.swift in Sources */,
 				618D78182ADB5CB5005FCF81 /* Extensions.swift in Sources */,
 				618D78032ADB27C0005FCF81 /* WeatherApp.swift in Sources */,
+				618D781E2ADC5FA6005FCF81 /* Shapes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
