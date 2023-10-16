@@ -20,6 +20,7 @@
 		618D78282ADC8119005FCF81 /* Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618D78272ADC8119005FCF81 /* Blur.swift */; };
 		61C462432ADD912D009BB68F /* SegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C462422ADD912D009BB68F /* SegmentedControl.swift */; };
 		61C462462ADDCA9E009BB68F /* ForecastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C462452ADDCA9E009BB68F /* ForecastModel.swift */; };
+		61C462482ADDCD31009BB68F /* ForecastCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61C462472ADDCD31009BB68F /* ForecastCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		618D78272ADC8119005FCF81 /* Blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blur.swift; sourceTree = "<group>"; };
 		61C462422ADD912D009BB68F /* SegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControl.swift; sourceTree = "<group>"; };
 		61C462452ADDCA9E009BB68F /* ForecastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastModel.swift; sourceTree = "<group>"; };
+		61C462472ADDCD31009BB68F /* ForecastCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 			children = (
 				618D78272ADC8119005FCF81 /* Blur.swift */,
 				61C462422ADD912D009BB68F /* SegmentedControl.swift */,
+				61C462472ADDCD31009BB68F /* ForecastCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61C462482ADDCD31009BB68F /* ForecastCard.swift in Sources */,
 				618D78052ADB27C0005FCF81 /* ContentView.swift in Sources */,
 				61C462432ADD912D009BB68F /* SegmentedControl.swift in Sources */,
 				618D781C2ADC2D42005FCF81 /* Tabbar.swift in Sources */,
