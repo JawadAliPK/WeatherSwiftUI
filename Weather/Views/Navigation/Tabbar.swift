@@ -32,7 +32,7 @@ struct Tabbar: View {
                 Spacer()
                 //MARK: NAVIGATION BUTTON
                 NavigationLink {
-                    
+                    WeatherView()
                 } label: {
                     Image(systemName: "list.star")
                         .frame(width: 44, height: 44)
@@ -43,6 +43,7 @@ struct Tabbar: View {
             .padding(EdgeInsets(top: 20, leading: 32, bottom: 24, trailing: 32))
         }
         .frame(maxHeight: .infinity, alignment: .bottom)
+        .ignoresSafeArea()
     }
 }
 
